@@ -15,7 +15,7 @@ import {
   FormGrid,
   FormLayout,
   FormTab,
-} from '@formily/antd'
+} from '@formily/antd-v5'
 import { Slider } from 'antd'
 import {
   SizeInput,
@@ -38,7 +38,7 @@ import {
   CollapseItem,
 } from './components'
 
-export const SchemaField = createSchemaField({
+export const SchemaField: any = createSchemaField({
   components: {
     FormItem,
     CollapseItem,
