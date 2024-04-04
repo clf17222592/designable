@@ -163,7 +163,8 @@
     "*.md": [
       "pretty-quick --staged",
       "git add"
-    ]
+    ],
+    "*": []
   },
   "dependencies": {
     "@ant-design/icons": "^4.0.2"
