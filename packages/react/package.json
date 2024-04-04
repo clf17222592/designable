@@ -1,5 +1,5 @@
 {
-  "name": "@designable/react",
+  "name": "@clf-master/designable-react",
   "version": "1.0.0",
   "license": "MIT",
   "main": "lib",
@@ -10,12 +10,12 @@
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alibaba/designable.git"
+    "url": "git+https://github.com/clf17222592/designable.git"
   },
   "bugs": {
     "url": "https://github.com/alibaba/designable/issues"
   },
-  "homepage": "https://github.com/alibaba/designable#readme",
+  "homepage": "https://github.com/clf17222592/designable.git#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -40,5 +40,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+  "gitHead": "b28feebff53c2e738da0a597f3e5ac5bf98cd31e"
 }

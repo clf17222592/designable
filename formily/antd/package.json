@@ -1,18 +1,18 @@
 {
-  "name": "@designable/formily-antd",
+  "name": "@clf-master/designable-formily-antd",
   "version": "1.0.0",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alibaba/designable.git"
+    "url": "git+https://github.com/clf17222592/designable.git"
   },
   "types": "esm/index.d.ts",
   "bugs": {
     "url": "https://github.com/alibaba/designable/issues"
   },
-  "homepage": "https://github.com/alibaba/designable#readme",
+  "homepage": "https://github.com/clf17222592/designable.git#readme",
   "engines": {
     "npm": ">=3.0.0"
   },
@@ -68,5 +68,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2c44ae410a73f02735c63c6430e021a50e21f3ec"
+  "gitHead": "b28feebff53c2e738da0a597f3e5ac5bf98cd31e"
 }
