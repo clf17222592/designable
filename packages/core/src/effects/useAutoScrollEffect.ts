@@ -6,7 +6,7 @@ import {
   IAutoScrollBasicInfo,
   IPoint,
   Point,
-} from '@designable/shared'
+} from '@clf-master/designable-shared'
 
 export const useAutoScrollEffect = (engine: Engine) => {
   let xScroller: IAutoScrollBasicInfo = null

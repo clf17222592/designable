@@ -1,21 +1,26 @@
 {
-  "name": "@designable/react",
-  "version": "1.0.0-beta.45",
+  "name": "@clf-master/designable-react",
+  "version": "1.0.7",
   "license": "MIT",
-  "main": "lib",
-  "types": "lib/index.d.ts",
+  "main": "esm",
+  "types": "esm/index.d.ts",
   "engines": {
     "npm": ">=3.0.0"
   },
   "module": "esm",
+  "files": [
+    "dist",
+    "esm",
+    "lib"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alibaba/designable.git"
+    "url": "git+https://github.com/clf17222592/designable.git"
   },
   "bugs": {
     "url": "https://github.com/alibaba/designable/issues"
   },
-  "homepage": "https://github.com/alibaba/designable#readme",
+  "homepage": "https://github.com/clf17222592/designable.git#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -33,8 +38,8 @@
     "react": "16.x || 17.x"
   },
   "dependencies": {
-    "@designable/core": "1.0.0-beta.45",
-    "@designable/shared": "1.0.0-beta.45",
+    "@clf-master/designable-core": "1.0.7",
+    "@clf-master/designable-shared": "1.0.7",
     "dateformat": "^4.5.1"
   },
   "publishConfig": {

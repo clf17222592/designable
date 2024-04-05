@@ -5,7 +5,7 @@ import {
   isCrossRectInRect,
   isRectInRect,
   Point,
-} from '@designable/shared'
+} from '@clf-master/designable-shared'
 
 export const useFreeSelectionEffect = (engine: Engine) => {
   engine.subscribeTo(DragStopEvent, (event) => {

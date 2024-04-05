@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@designable/shared'
+import { ICustomEvent } from '@clf-master/designable-shared'
 import { AbstractMutationNodeEvent } from './AbstractMutationNodeEvent'
 
 export class PrependNodeEvent

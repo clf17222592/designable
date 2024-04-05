@@ -5,7 +5,7 @@ import {
   DragMoveEvent,
   DragStopEvent,
 } from '../events'
-import { requestIdle } from '@designable/shared'
+import { requestIdle } from '@clf-master/designable-shared'
 
 export const useCursorEffect = (engine: Engine) => {
   engine.subscribeTo(MouseMoveEvent, (event) => {
